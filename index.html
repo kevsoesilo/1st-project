@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>How much is your garage worth?</title>
+  </head>
+  <body>
+    <header>
+      <h1>Garage Value Estimator</h1>
+      <p>How much is your garage worth?</p>
+    </header>
+    <main>
+      <div class="columns">
+        <button class="column" id="wash-btn">Car 1</button>
+        <button class="column" id="mow-btn">Car 2</button>
+        <button class="column" id="pull-btn">Car 3</button>
+      </div>
+      <table>
+        <tr>
+          <th id="th-left">Vehicles</th>
+          <th id="th-right">Value</th>
+        </tr>
+      </table>
+      <table id="task-list"></table>
+      <hr />
+      <div class="columns3">
+        <p class="column3">Total value:</p>
+      </div>
+      <div class="columns4">
+        <p id="total-value">$0</p>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
